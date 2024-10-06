@@ -1,0 +1,173 @@
+
+
+/* Definindo o fundo da página como preto */
+body {
+  background-color: black;
+}
+
+/* Estilizando os elementos <h2> com tamanho de fonte maior, cor azul personalizada, espaçamento entre letras e todas as letras em maiúsculas */
+h2 {
+  font-size: 2rem;
+  color: #33A8DB;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* Tornando o texto dos parágrafos branco */
+p {
+  color: white;
+}
+
+/* Aplicando margens para centralizar as seções e afastá-las dos limites da página */
+section {
+  margin: 100px auto;
+}
+
+/* Criando uma seção de banner com uma imagem de fundo e sobreposição de cores para dar destaque */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+}
+
+/* Estilizando o conteúdo dentro do banner para centralizá-lo e ajustá-lo */
+.banner .banner-content {
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Criando um título estilizado no banner com um efeito de gradiente na cor do texto */
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Definindo o estilo dos parágrafos dentro do banner */
+.banner p {
+  font-size: 1.25rem;
+  margin: 16px 0 24px;
+}
+
+/* Estilizando o logo circular dentro do banner com um fundo semi-transparente e bordas arredondadas */
+.banner .logo {
+  background-color: rgba(0, 0, 0, .2);
+  height: 260px;
+  width: 260px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Ajustando a exibição da imagem dentro do logo para caber corretamente */
+.banner .logo img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Estilizando o botão dentro do banner com bordas de gradiente, espaçamento de letras e texto em maiúsculas */
+.banner .banner-content button {
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px;
+}
+
+/* Estilizando o conteúdo da seção de cursos, centralizando e ajustando o tamanho da área */
+#course-content {
+  width: 800px;
+  text-align: center;
+}
+
+/* Estilizando a lista de módulos da seção de cursos */
+#course-content .modules-list {
+  margin: 24px 0;
+}
+
+/* Definindo a aparência de cada módulo da lista com cores escuras, bordas arredondadas e sombra interna */
+#course-content .modules-list .module {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+/* Estilizando os spans dentro dos módulos para ter uma cor diferenciada */
+#course-content .modules-list .module span {
+  color: #33A8DB;
+}
+
+/* Estilizando a seção "Transform World" com uma imagem de fundo fixa e bordas */
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url("../images/woman-code.png");
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  padding: 200px;
+}
+
+/* Estilizando os parágrafos da seção "Transform World" com tamanho grande e sombra no texto */
+#transform-world p {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  max-width: 250px;
+  text-shadow: 3px 2px #33A8DB;
+}
+
+/* Centralizando o conteúdo da seção de desafios profissionais */
+#professional-challenges {
+  text-align: center;
+  width: 800px;
+}
+
+/* Adicionando espaçamento nas imagens da seção de desafios profissionais */
+#professional-challenges img {
+  margin: 32px 0;
+}
+
+/* Estilizando o rodapé com padding, gradiente de fundo e borda */
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  border-top: 1px solid #33A8DB80;
+}
+
+/* Ajustando o tamanho do logo no rodapé */
+footer .dio-logo {
+  width: 300px;
+}
+
+/* Estilizando os links no rodapé com cor personalizada e negrito */
+footer a {
+  color: #33A8DB;
+  font-weight: bold;
+  text-decoration: none;
+}
